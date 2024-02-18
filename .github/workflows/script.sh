@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Set up Git identity
+git config --global user.email "levinhkhang631@example.com"
+git config --global user.name "levinhkhangzz"
+
 while true; do
   for ((i=0; i<=1; i++)); do
     echo $i > Huy.txt
